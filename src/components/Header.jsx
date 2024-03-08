@@ -4,6 +4,7 @@ import { FaDownload, FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import cv from "../assets/images/atikur.pdf";
 
 const Header = () => {
   return (
@@ -23,28 +24,29 @@ const Header = () => {
           href="www.facebook.com"
           target="_blank"
         >
-          {" "}
           <FaFacebookSquare />
         </a>
         <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
-          {" "}
           <FaLinkedin />
         </a>
         <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
-          {" "}
           <FaGithub />
-        </a>{" "}
+        </a>
         <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
-          {" "}
           <FaInstagram />
         </a>
       </section>
 
       <div>
-        <button className="btn btn-primary px-10 rounded-full">
+        <a
+          download
+          target="_blank"
+          href={cv}
+          className="btn btn-primary px-10 rounded-full"
+        >
           Download CV
           <FaDownload />
-        </button>
+        </a>
       </div>
     </div>
   );
