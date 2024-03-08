@@ -21,7 +21,7 @@ const Header = () => {
       <section className=" flex items-center gap-3">
         <a
           className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all"
-          href="www.facebook.com"
+          href="https://facebook.com/atikurahad"
           target="_blank"
         >
           <FaFacebookSquare />
@@ -29,10 +29,16 @@ const Header = () => {
         <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
           <FaLinkedin />
         </a>
-        <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
+        <a
+          href="https://github.com/atikurahad"
+          className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all"
+        >
           <FaGithub />
         </a>
-        <a className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all">
+        <a
+          href="https://www.instagram.com/atikur_ahad/"
+          className="text-base-100 p-1 text-3xl rounded-md hover:bg-base-100 hover:text-neutral cursor-pointer transition-all"
+        >
           <FaInstagram />
         </a>
       </section>
