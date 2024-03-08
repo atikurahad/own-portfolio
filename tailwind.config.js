@@ -8,9 +8,9 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#ef4444",
+          primary: "#2af54f",
           neutral: "#1f2937",
-          "base-100": "#f5f5f4",
+          "base-100": "#fff",
         },
       },
     ],
